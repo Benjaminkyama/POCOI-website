@@ -94,3 +94,21 @@ form button {
 form button:hover {
   background-color: #e59400;
 }
+/* HOMEPAGE BANNER IMAGE */
+.banner-img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* FOOTER STYLING */
+footer {
+  background-color: #228B22; /* Green */
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  font-size: 14px;
+}
