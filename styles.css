@@ -1,0 +1,81 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+/* NAVBAR STYLES */
+.navbar {
+  background-color: #228B22; /* Green */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+.navbar a:hover {
+  background-color: #FFA500; /* Orange on hover */
+  color: black;
+}
+
+.logo {
+  width: 150px;
+  display: block;
+  margin: 20px auto;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 10px;
+}
+
+h1, h2 {
+  color: #228B22; /* green for headings */
+}
+h1 {
+  margin-top: 0;
+}
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.team-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  flex: 1 1 200px;
+}
+.team-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+form label {
+  font-weight: bold;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+form button {
+  background-color: #FFA500;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #e59400;
+}
