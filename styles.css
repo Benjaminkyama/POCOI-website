@@ -6,24 +6,39 @@ body {
   color: #333;
 }
 
-/* NAVBAR STYLES */
+/* NAVBAR FULL WIDTH + LOGO ON LEFT */
 .navbar {
   background-color: #228B22; /* Green */
-  overflow: hidden;
+  width: 100%;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.logo-area img {
+  height: 60px;
+  width: auto;
+  margin-right: 20px;
+}
+
+.menu-area {
+  display: flex;
   flex-wrap: wrap;
+  gap: 15px;
 }
-.navbar a {
+
+.menu-area a {
   color: white;
-  padding: 14px 20px;
   text-decoration: none;
-  text-align: center;
   font-weight: bold;
+  padding: 10px;
 }
-.navbar a:hover {
-  background-color: #FFA500; /* Orange on hover */
+
+.menu-area a:hover {
+  background-color: #FFA500; /* Orange */
   color: black;
+  border-radius: 4px;
 }
 
 .logo {
